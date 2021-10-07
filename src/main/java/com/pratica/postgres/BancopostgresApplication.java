@@ -1,4 +1,4 @@
-package com.pratica.postgres.bancopostgres;
+package com.pratica.postgres;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
