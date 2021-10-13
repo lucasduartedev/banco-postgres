@@ -1,4 +1,6 @@
-package com.pratica.postgres.jqpl;
+package com.pratica.postgres.testes;
+
+
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -6,8 +8,8 @@ import javax.persistence.Persistence;
 
 import com.pratica.postgres.models.Pessoa;
 
-public class PessoaJPQL {
-
+public class PessoaTeste {
+	
 	public static void main(String[] args) {
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("banco-postgres");
@@ -24,5 +26,5 @@ public class PessoaJPQL {
 		emf.close();
 
 	}
-
+	
 }
