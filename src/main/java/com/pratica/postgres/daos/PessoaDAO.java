@@ -1,12 +1,11 @@
 package com.pratica.postgres.daos;
 
-public class PessoaDAO {
-	
-	static {
-		System.out.println("TESTESTESTSETSETSETSETSET");
-	}
-	
-	public PessoaDAO() {
-	}
+import com.pratica.postgres.models.Pessoa;
 
+public class PessoaDAO extends DAO<Pessoa> {
+
+	public PessoaDAO() {
+		super(Pessoa.class);
+	}
+	
 }
